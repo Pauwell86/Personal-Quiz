@@ -13,6 +13,7 @@
 		C0073C5125B5EE67009CD178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0073C4F25B5EE67009CD178 /* Main.storyboard */; };
 		C0073C5325B5EE68009CD178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0073C5225B5EE68009CD178 /* Assets.xcassets */; };
 		C0073C5625B5EE68009CD178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0073C5425B5EE68009CD178 /* LaunchScreen.storyboard */; };
+		C0073C6125B62C6D009CD178 /* Personal Quiz in Resources */ = {isa = PBXBuildFile; fileRef = C0073C6025B62C6D009CD178 /* Personal Quiz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C0073C5225B5EE68009CD178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0073C5525B5EE68009CD178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0073C5725B5EE68009CD178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0073C6025B62C6D009CD178 /* Personal Quiz */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Personal Quiz"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C0073C4925B5EE67009CD178 /* AppDelegate.swift */,
 				C0073C4B25B5EE67009CD178 /* SceneDelegate.swift */,
 				C0073C4D25B5EE67009CD178 /* ViewController.swift */,
+				C0073C6025B62C6D009CD178 /* Personal Quiz */,
 				C0073C4F25B5EE67009CD178 /* Main.storyboard */,
 				C0073C5225B5EE68009CD178 /* Assets.xcassets */,
 				C0073C5425B5EE68009CD178 /* LaunchScreen.storyboard */,
@@ -126,6 +129,7 @@
 			files = (
 				C0073C5625B5EE68009CD178 /* LaunchScreen.storyboard in Resources */,
 				C0073C5325B5EE68009CD178 /* Assets.xcassets in Resources */,
+				C0073C6125B62C6D009CD178 /* Personal Quiz in Resources */,
 				C0073C5125B5EE67009CD178 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1.1;
 				INFOPLIST_FILE = "Personal Quiz/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1.1;
 				INFOPLIST_FILE = "Personal Quiz/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
