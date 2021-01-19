@@ -199,6 +199,9 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="1KU-P0-5VO" firstAttribute="centerY" secondItem="EAv-gt-mXo" secondAttribute="centerY" id="Bj7-Zu-5Ku"/>
+                                        </constraints>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUX-lR-QYn">
                                         <rect key="frame" x="0.0" y="72" width="280" height="36"/>
@@ -221,12 +224,6 @@
                             <constraint firstItem="GyP-Q9-cw5" firstAttribute="trailing" secondItem="ELm-Rn-5G2" secondAttribute="trailing" constant="20" id="ncE-gP-F73"/>
                             <constraint firstItem="oBd-hZ-Lbd" firstAttribute="centerY" secondItem="WUD-Hb-9EZ" secondAttribute="centerY" constant="20" id="phM-pk-cvT"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="ELm-Rn-5G2"/>
-                                <exclude reference="oBd-hZ-Lbd"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Вопрос №" id="EM5-pT-wQk">
                         <barButtonItem key="rightBarButtonItem" title="3 -&gt;" id="Joz-mB-dNh">
