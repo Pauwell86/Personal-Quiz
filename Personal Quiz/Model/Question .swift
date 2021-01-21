@@ -20,7 +20,7 @@ extension Question {
                 answers: [
                     Answer(text: "Стейк", type: .dog),
                     Answer(text: "Рыба", type: .cat),
-                    Answer(text: "Морковь", type: .rabbit)
+                    Answer(text: "Морковь", type: .rabbit),
                     Answer(text: "Кукуруза", type: .turtle)
                 ]
             ),
@@ -30,7 +30,7 @@ extension Question {
                 answers: [
                     Answer(text: "Плавать", type: .dog),
                     Answer(text: "Спать", type: .cat),
-                    Answer(text: "Обниматься", type: .rabbit)
+                    Answer(text: "Обниматься", type: .rabbit),
                     Answer(text: "Есть", type: .turtle)
                 ]
             ),
@@ -40,7 +40,7 @@ extension Question {
                 answers: [
                     Answer(text: "Ненавижу", type: .dog),
                     Answer(text: "Нервичаю", type: .cat),
-                    Answer(text: "Не замечаю", type: .rabbit)
+                    Answer(text: "Не замечаю", type: .rabbit),
                     Answer(text: "Обожаю", type: .turtle)
                 ]
             )

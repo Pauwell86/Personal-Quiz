@@ -13,7 +13,6 @@
 		C0073C5125B5EE67009CD178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0073C4F25B5EE67009CD178 /* Main.storyboard */; };
 		C0073C5325B5EE68009CD178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0073C5225B5EE68009CD178 /* Assets.xcassets */; };
 		C0073C5625B5EE68009CD178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0073C5425B5EE68009CD178 /* LaunchScreen.storyboard */; };
-		C0073C6125B62C6D009CD178 /* Personal Quiz in Resources */ = {isa = PBXBuildFile; fileRef = C0073C6025B62C6D009CD178 /* Personal Quiz */; };
 		C0073C6425B7521B009CD178 /* Question .swift in Sources */ = {isa = PBXBuildFile; fileRef = C0073C6325B7521B009CD178 /* Question .swift */; };
 		C0073C6C25B76831009CD178 /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0073C6B25B76831009CD178 /* ResponseType.swift */; };
 		C0073C7025B769D6009CD178 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0073C6F25B769D6009CD178 /* Answer.swift */; };
@@ -29,7 +28,6 @@
 		C0073C5225B5EE68009CD178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0073C5525B5EE68009CD178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0073C5725B5EE68009CD178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0073C6025B62C6D009CD178 /* Personal Quiz */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Personal Quiz"; sourceTree = "<group>"; };
 		C0073C6325B7521B009CD178 /* Question .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question .swift"; sourceTree = "<group>"; };
 		C0073C6B25B76831009CD178 /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
 		C0073C6F25B769D6009CD178 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
@@ -70,7 +68,6 @@
 				C0073C6825B75831009CD178 /* View */,
 				C0073C6625B7561E009CD178 /* Controller */,
 				C0073C6925B758FC009CD178 /* Supporting Fiels */,
-				C0073C6025B62C6D009CD178 /* Personal Quiz */,
 				C0073C6A25B75A07009CD178 /* Resourses */,
 			);
 			path = "Personal Quiz";
@@ -181,7 +178,6 @@
 			files = (
 				C0073C5625B5EE68009CD178 /* LaunchScreen.storyboard in Resources */,
 				C0073C5325B5EE68009CD178 /* Assets.xcassets in Resources */,
-				C0073C6125B62C6D009CD178 /* Personal Quiz in Resources */,
 				C0073C5125B5EE67009CD178 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,7 +344,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.1.1;
-				INFOPLIST_FILE = "Personal Quiz/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Personal Quiz/Supporting Fiels/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -367,7 +363,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.1.1;
-				INFOPLIST_FILE = "Personal Quiz/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Personal Quiz/Supporting Fiels/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
